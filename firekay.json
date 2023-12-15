@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "djangoproject1-910fc",
+  "private_key_id": "",
+  "private_key": "",
+  "client_email": "firebase-adminsdk-zi1ov@djangoproject1-910fc.iam.gserviceaccount.com",
+  "client_id": "100105770042238487934",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-zi1ov%40djangoproject1-910fc.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
