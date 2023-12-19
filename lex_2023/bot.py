@@ -1,4 +1,4 @@
-
+#6304196143:AAE28CXYqCVAQ9tWb2sEnG2BlnTrUmdlmyk
 import logging
 from aiogram import Bot, Dispatcher, types
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
@@ -11,7 +11,7 @@ from io import BytesIO
 import sqlite3
 import re
 
-API_TOKEN = ''
+API_TOKEN = '6304196143:AAE28CXYqCVAQ9tWb2sEnG2BlnTrUmdlmyk'
 bot = Bot(token=API_TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
@@ -133,10 +133,13 @@ def save_image_to_database(user_id, email, password, image):
     conn.commit()
     conn.close()
 
-# if __name__ == '__main__':
-#     from aiogram import executor
-#     executor.start_polling(dp)
+if __name__ == '__main__':
+    print("Bot is starting")
+    from aiogram import executor
+
+    executor.start_polling(dp)
+
 
 
 async def main():
-    await dp.start_polling()
+    executor.start_polling()

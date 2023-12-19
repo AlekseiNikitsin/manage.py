@@ -16,18 +16,12 @@ firebase_admin.initialize_app(cred, {
 new = ''
 
 
-async def getNew():
-    print("NEEEEEEEEW")
-    return new
-
-
 def change(e: Event):
     print(e.data)
 
 
 ref = db.reference('jo')
 ref.listen(change)
-
 
 def fire_get():
     return ref.get()
