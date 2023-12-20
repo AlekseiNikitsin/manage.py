@@ -1,4 +1,4 @@
-#6304196143:AAE28CXYqCVAQ9tWb2sEnG2BlnTrUmdlmyk
+
 import logging
 from aiogram import Bot, Dispatcher, types
 from aiogram.contrib.middlewares.logging import LoggingMiddleware
@@ -11,7 +11,7 @@ from io import BytesIO
 import sqlite3
 import re
 
-API_TOKEN = ''
+API_TOKEN = 'you token'
 bot = Bot(token=API_TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
