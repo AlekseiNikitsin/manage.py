@@ -11,7 +11,7 @@ from io import BytesIO
 import sqlite3
 import re
 
-API_TOKEN = '6304196143:AAE28CXYqCVAQ9tWb2sEnG2BlnTrUmdlmyk'
+API_TOKEN = ''
 bot = Bot(token=API_TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
