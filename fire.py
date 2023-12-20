@@ -10,7 +10,7 @@ from firebase_admin.db import Event
 cred = credentials.Certificate('firekay.json')
 # Initialize the app with a service account, granting admin privileges
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://djangoproject1-910fc-default-rtdb.firebaseio.com/"
+    
 
 })
 new = ''
